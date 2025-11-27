@@ -4,10 +4,10 @@ const Body = () => {
   return (
     <main style={styles.body}>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
+        <img src={"/avatar-default.png"} alt="Бегун Олексій" style={styles.photo} />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>John Doe</h2>
-          <p style={styles.position}>Software engineer</p>
+          <h2 style={styles.name}>Бегун Олексій</h2>
+          <p style={styles.position}>Team Lead</p>
         </div>
       </div>
       <div style={styles.card}>
@@ -17,6 +17,22 @@ const Body = () => {
           <p style={styles.position}>Quality Assurance</p>
         </div>
       </div>
+        <img src={"/avatar-default.png"} alt="Олег Гоза" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Олег Гоза</h2>
+          <p style={styles.position}>Frontend Developer</p>
+        </div>
+      </div>
+
+      {/* Павло Бовтач*/}
+      <div style={styles.card}>
+        <img src={"/avatar.png"} alt="Pavlo" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>[Pavlo Bovtach]</h2>
+          <p style={styles.position}>[UU/UZ]</p>
+        </div>
+      </div>
+      
     </main>
   );
 };

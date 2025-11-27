@@ -17,6 +17,16 @@ const Body = () => {
           <p style={styles.position}>Frontend Developer</p>
         </div>
       </div>
+
+      {/* Павло Бовтач*/}
+      <div style={styles.card}>
+        <img src={"/avatar.png"} alt="Pavlo" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>[Pavlo Bovtach]</h2>
+          <p style={styles.position}>[UU/UZ]</p>
+        </div>
+      </div>
+      
     </main>
   );
 };

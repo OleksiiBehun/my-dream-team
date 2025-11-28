@@ -6,7 +6,7 @@ const Body = () => {
 
             {/* Олексій Бегун */}
             <div style={styles.card}>
-                <img src={"/avatar-default.png"} alt="Бегун Олексій" style={styles.photo} />
+                <img src={"/avatar-default.png"} alt="пслпспрсс" style={styles.photo} />
                 <div style={styles.textContainer}>
                     <h2 style={styles.name}>Бегун Олексій</h2>
                     <p style={styles.position}>Team Lead</p>
@@ -28,6 +28,14 @@ const Body = () => {
                 <div style={styles.textContainer}>
                     <h2 style={styles.name}>Олег Гоза</h2>
                     <p style={styles.position}>Front-End Developer</p>
+                </div>
+            </div>
+            {/* Олексій Бегун */}
+            <div style={styles.card}>
+                <img src={"/avatar-default.png"} alt="jhliyFGIGIUGIFGI" style={styles.photo} />
+                <div style={styles.textContainer}>
+                    <h2 style={styles.name}>Бегун Олексій</h2>
+                    <p style={styles.position}>Team Lead</p>
                 </div>
             </div>
 

@@ -1,18 +1,65 @@
 import React from "react";
 
 const Body = () => {
-  return (
-    <main style={styles.body}>
-      <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
-        <div style={styles.textContainer}>
-          <h2 style={styles.name}>John Doe</h2>
-          <p style={styles.position}>Software engineer</p>
-        </div>
-      </div>
-    </main>
-  );
+    return (
+        <main style={styles.body}>
+
+            {/* Олексій Бегун */}
+            <div style={styles.card}>
+                <img src={"/avatar-default.png"} alt="пслпспрсс" style={styles.photo} />
+                <div style={styles.textContainer}>
+                    <h2 style={styles.name}>Бегун Олексій</h2>
+                    <p style={styles.position}>Team Lead</p>
+                </div>
+            </div>
+
+            {/* Данило Лилик */}
+            <div style={styles.card}>
+                <img src={"/danik.jpg"} alt="Danylo Lylyk" style={styles.photo} />
+                <div style={styles.textContainer}>
+                    <h2 style={styles.name}>Данило Лилик</h2>
+                    <p style={styles.position}>Quality Assurance</p>
+                </div>
+            </div>
+
+            {/* Олег Гоза */}
+            <div style={styles.card}>
+                <img src={"/avatar-default.png"} alt="Олег Гоза" style={styles.photo} />
+                <div style={styles.textContainer}>
+                    <h2 style={styles.name}>Олег Гоза</h2>
+                    <p style={styles.position}>Front-End Developer</p>
+                </div>
+            </div>
+            {/* Данило Лилик */}
+            <div style={styles.card}>
+                <img src={"/danik.jpg"} alt="Danylo Lylyk" style={styles.photo} />
+                <div style={styles.textContainer}>
+                    <h2 style={styles.name}>Данило Лилик</h2>
+                    <p style={styles.position}>Quality Assurance</p>
+                </div>
+            </div>div>
+
+
+            {/* Павло Бовтач */}
+            <div style={styles.card}>
+                <img src={"/avatar.png"} alt="Pavlo Bovtach" style={styles.photo} />
+                <div style={styles.textContainer}>
+                    <h2 style={styles.name}>Павло Бовтач</h2>
+                    <p style={styles.position}>UI/UX</p>
+                </div>
+            </div>
+            <div style={styles.card}>
+                <img src={"/avatar.png"} alt="Nastia" style={styles.photo} />
+                <div style={styles.textContainer}>
+                    <h2 style={styles.name}>Данюк Настя</h2>
+                    <p style={styles.position}>Back-End Developer</p>
+                </div>
+            </div>
+
+        </main>
+    );
 };
+
 
 const styles = {
   body: {

@@ -44,14 +44,18 @@ const Body = () => {
             {/* Павло Бовтач */}
             <div style={styles.card}>
                 <img src={"/avatar.png"} alt="Pavlo Bovtach" style={styles.photo} />
+            {/* Олексій Бегун */}
+
+            {/* Павло Бовтач */}
+            <div style={styles.card}>
+                <img src={"/avatar-default.png"} alt="Pavlo Bovtach" style={styles.photo} />
                 <div style={styles.textContainer}>
                     <h2 style={styles.name}>Павло Бовтач</h2>
                     <p style={styles.position}>UI/UX</p>
                 </div>
             </div>
-
             <div style={styles.card}>
-                <img src={"/avatar.png"} alt="Nastia" style={styles.photo} />
+                <img src={"/avatar-default.png"} alt="Nastia" style={styles.photo} />
                 <div style={styles.textContainer}>
                     <h2 style={styles.name}>Данюк Настя</h2>
                     <p style={styles.position}>Back-End Developer</p>

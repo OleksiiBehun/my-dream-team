@@ -30,9 +30,9 @@ const Body = () => {
                     <p style={styles.position}>Front-End Developer</p>
                 </div>
             </div>
-            {/* Данило Лилик */}
+            {/* Testк */}
             <div style={styles.card}>
-                <img src={"/danik.jpg"} alt="Danylo Lylyk" style={styles.photo} />
+                <img src={"/danik.jpg"} alt="Test for practice 7" style={styles.photo} />
                 <div style={styles.textContainer}>
                     <h2 style={styles.name}>Данило Лилик</h2>
                     <p style={styles.position}>Quality Assurance</p>

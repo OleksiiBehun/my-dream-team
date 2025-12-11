@@ -55,6 +55,15 @@ const Body = () => {
                 </div>
             </div>
 
+            {/* Test for practice 7 */}
+            <div style={styles.card}>
+                <img src={"/avatar.png"} alt="Test" style={styles.photo} />
+                <div style={styles.textContainer}>
+                    <h2 style={styles.name}>Test</h2>
+                    <p style={styles.position}>Test</p>
+                </div>
+            </div>
+
         </main>
     );
 };

@@ -43,6 +43,11 @@ const Body = () => {
             {/* Павло Бовтач */}
             <div style={styles.card}>
                 <img src={"/avatar.png"} alt="Pavlo Bovtach" style={styles.photo} />
+            {/* Олексій Бегун */}
+
+            {/* Павло Бовтач */}
+            <div style={styles.card}>
+                <img src={"/avatar-default.png"} alt="Pavlo Bovtach" style={styles.photo} />
                 <div style={styles.textContainer}>
                     <h2 style={styles.name}>Павло Бовтач</h2>
                     <p style={styles.position}>UI/UX</p>

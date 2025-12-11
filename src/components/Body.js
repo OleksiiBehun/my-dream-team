@@ -30,6 +30,7 @@ const Body = () => {
                     <p style={styles.position}>Front-End Developer</p>
                 </div>
             </div>
+
             {/* Testк */}
             <div style={styles.card}>
                 <img src={"/danik.jpg"} alt="Test for practice 7" style={styles.photo} />
@@ -37,7 +38,7 @@ const Body = () => {
                     <h2 style={styles.name}>Данило Лилик</h2>
                     <p style={styles.position}>Quality Assurance</p>
                 </div>
-            </div>div>
+            </div>
 
 
             {/* Павло Бовтач */}
@@ -48,6 +49,7 @@ const Body = () => {
                     <p style={styles.position}>UI/UX</p>
                 </div>
             </div>
+
             <div style={styles.card}>
                 <img src={"/avatar.png"} alt="Nastia" style={styles.photo} />
                 <div style={styles.textContainer}>
